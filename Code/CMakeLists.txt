@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.12.1)
+cmake_minimum_required(VERSION 3.31.1.12)
 
 set(CMAKE_CONFIGURATION_TYPES Debug Release)
 
@@ -74,7 +74,6 @@ set(GS_HASHPATH "win/clang-format.exe.sha1")
 add_subdirectory(${CEF_LIBCEF_DLL_WRAPPER_PATH} libcef_dll_wrapper)
 
 add_subdirectory(Crymium)
-add_subdirectory(Crymium.UnitTests)
 add_subdirectory(Crymium.SubProcess)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})

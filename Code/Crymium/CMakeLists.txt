@@ -1,5 +1,5 @@
-cmake_minimum_required (VERSION 3.14)
-set(CRYENGINE_DIR "C:/Program Files (x86)/Crytek/CRYENGINE Launcher/Crytek/CRYENGINE_5.6" CACHE STRING "CRYENGINE root directory.")
+cmake_minimum_required(VERSION 3.31.1.12)
+set(CRYENGINE_DIR "$ENV{LOCALAPPDATA}/Programs/CRYENGINE Launcher/Engines/crytek/cryengine-57-lts/5.7.1" CACHE STRING "CRYENGINE root directory.")
 set(TOOLS_CMAKE_DIR "${CRYENGINE_DIR}/Tools/CMake")
 
 set(PROJECT_BUILD 1)
